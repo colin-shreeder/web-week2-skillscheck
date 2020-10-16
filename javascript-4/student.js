@@ -53,17 +53,17 @@ function setColor (arr){
     for (i=3; i<=arr.length; i++){
         if (arr[i]==='blue'){
             arr[i]='#4D4DFF'
-        } function background (c1, c2, c3);
+        } background (c1, c2, c3);
         
     
 }
-
+}
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in 'arr' as a parameter. In your setPowers function, loop over the arr parameter and run a function we created called createLi(), which will take each item of the array as an argument. Remember, you did not create the createLi function. The createLi function is a function we created that determines how the content is displayed.
 
 function setPowers (arr){
     for (i=0; i<=arr.length;i++){
-        function createLi();
+        createLi(arr[i]);
     }
 }
 
@@ -73,5 +73,5 @@ function setPowers (arr){
 function redactInfo (obj){
     for (let key in obj){
         obj[key]='redacted'
-    } function redacted();
+    } redacted();
 };
