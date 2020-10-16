@@ -1,0 +1,83 @@
+
+
+      .graybit {
+          width: 100%;
+          height: 50px;
+          background-color: gray;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          justify-content: space-between;
+      }
+
+      .blackbit{
+          width: 100%;
+          height: 200px;
+          background-color: black;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+      }
+
+      h1{
+           
+          color: yellow;
+          margin: 0 auto;
+          font-size: 40px;
+      }
+
+      .whitebit{
+          width: 100%;
+          height: 400px;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+      }
+
+      .bluebit{
+          width: 100%;
+          height: 100px;
+          background-color: #2B356E;
+      }
+
+      .greensquares{
+          width: 150px;
+          height: 150px;
+          background-color: cyan;
+          margin: 25px 100px;
+          border-radius: 15px;
+      }
+      
+      .yellowsquares{
+          width: 360px;
+          height: 150px;
+          background-color:gold;
+          margin: 25px 100px;
+      }
+
+      .whitebottom {
+          width: 100%;
+          height: 150px;
+          display: flex;
+          align-items: center;
+          justify-content:space-around;
+      }
+
+      .text {
+          font-size: 12px;
+          }
+
+      .home {
+          font-size: 25px;
+          padding: 50px;
+          color: white;
+      }
+
+      .menu {
+          font-size: 15px;
+          padding: 50px;
+          color: white;
+      }
